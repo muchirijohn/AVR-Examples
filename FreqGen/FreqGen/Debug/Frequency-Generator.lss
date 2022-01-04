@@ -105,7 +105,7 @@ Disassembly of section .text:
   fc:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
 
 00000100 <_ZN3GenC1Eh>:
- *  Author: mercy
+ *  Author: Muchiri John
  */ 
 #include "FreqGen.h"
 //initialize the frequency generator

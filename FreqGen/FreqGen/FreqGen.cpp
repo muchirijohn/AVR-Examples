@@ -2,7 +2,7 @@
  * FreqGen.cpp
  *
  * Created: 10/27/2012 07:43:55
- *  Author: mercy
+ *  Author: Muchiri John
  */ 
 #include "FreqGen.h"
 //initialize the frequency generator

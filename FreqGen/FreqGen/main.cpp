@@ -2,7 +2,7 @@
  * FreqGen.cpp
  *
  * Created: 10/27/2012 07:42:57
- *  Author: mercy
+ *  Author: Muchiri John
  */ 
 
 
