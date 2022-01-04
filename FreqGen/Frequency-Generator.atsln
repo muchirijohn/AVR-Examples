@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Atmel Studio Solution File, Format Version 11.00
-Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FreqGen", "FreqGen\FreqGen.cppproj", "{7D58F689-4BB6-4CDB-9855-64CC8DBC2049}"
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Frequency-Generator", "FreqGen\Frequency-Generator.cppproj", "{7D58F689-4BB6-4CDB-9855-64CC8DBC2049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
