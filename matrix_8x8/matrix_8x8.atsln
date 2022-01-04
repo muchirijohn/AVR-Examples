@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "matrix_8x8", "matrix_8x8\matrix_8x8.cproj", "{50BCD9DB-663E-40E4-A886-E59B9F723596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50BCD9DB-663E-40E4-A886-E59B9F723596}.Debug|AVR.ActiveCfg = Debug|AVR
+		{50BCD9DB-663E-40E4-A886-E59B9F723596}.Debug|AVR.Build.0 = Debug|AVR
+		{50BCD9DB-663E-40E4-A886-E59B9F723596}.Release|AVR.ActiveCfg = Release|AVR
+		{50BCD9DB-663E-40E4-A886-E59B9F723596}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
