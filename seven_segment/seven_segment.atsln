@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "seven_segment_basic", "seven_segment_basic\seven_segment_basic.cproj", "{EC30AF3F-F75F-48CD-A9F8-0295AB785A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099EFDDF-948D-4B1B-9BDD-8024D8089EA8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{099EFDDF-948D-4B1B-9BDD-8024D8089EA8}.Debug|AVR.Build.0 = Debug|AVR
+		{099EFDDF-948D-4B1B-9BDD-8024D8089EA8}.Release|AVR.ActiveCfg = Release|AVR
+		{099EFDDF-948D-4B1B-9BDD-8024D8089EA8}.Release|AVR.Build.0 = Release|AVR
+		{EC30AF3F-F75F-48CD-A9F8-0295AB785A38}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EC30AF3F-F75F-48CD-A9F8-0295AB785A38}.Debug|AVR.Build.0 = Debug|AVR
+		{EC30AF3F-F75F-48CD-A9F8-0295AB785A38}.Release|AVR.ActiveCfg = Release|AVR
+		{EC30AF3F-F75F-48CD-A9F8-0295AB785A38}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
