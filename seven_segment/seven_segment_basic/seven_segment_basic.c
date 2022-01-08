@@ -9,6 +9,7 @@
 #define F_CPU 8000000ul
 #endif
 
+#include <avr/io.h>
 #include <stdint.h>
 #include <util/delay.h>
 
