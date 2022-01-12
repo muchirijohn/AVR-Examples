@@ -5,8 +5,13 @@
  *  Author: Muchiri John
  */ 
 
-#include <sketch.h>
-#include <pin.h>
+#define F_CPU 8000000L
+
+#include <avr/io.h>
+#include <stdint.h>
+#include <util/delay.h>
+
+#include "pin.h"
 
 uint8_t byt = 0;
 
@@ -15,11 +20,12 @@ void init_code()
 	portSet(D, 0xFF);
 }
 
-void main_code()
+int main()
 {
 	for(byt=0; byt<=255; byt++)
 	{
 		portWrite(D, byt);
 		_delay_ms(250);
 	}
+	return 0;
 }
