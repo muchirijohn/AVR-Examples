@@ -3,23 +3,38 @@
  *
  * Created: 8/11/2014 17:49:07
  *  Author: Muchiri john
- */ 
+ */
 
 
-#include <sketch.h>
-#include <pin.h>
+#define F_CPU 8000000L
 
+#include <avr/io.h>
+#include <stdint.h>
+#include <util/delay.h>
 
+#include "pin.h"
+
+/************************************************************************
+* initialization code
+************************************************************************/
 void init_code()
 {
 	pinSet(D0, OUTPUT);
 }
 
-void main_code()
+/************************************************************************
+* main function
+************************************************************************/
+int main()
 {
-	
-	pinWrite(D0, HIGH);
-	_delay_ms(1000);
-	pinWrite(D0, LOW);
-	_delay_ms(1000);
+	//init code
+	init_code();
+	//loop
+	while(1){
+		pinWrite(D0, HIGH); //set pin PIND0 ON
+		_delay_ms(1000); //delay 1000 ms
+		pinWrite(D0, LOW); //set pin PIND0 OFF
+		_delay_ms(1000); //delay 1000ms
+	}
+	return 0;
 }
