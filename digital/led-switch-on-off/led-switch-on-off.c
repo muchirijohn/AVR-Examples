@@ -22,10 +22,13 @@ uint8_t read_value = 0;
 ************************************************************************/
 void init_code()
 {
+	//set PINC0 to input
 	pinSet(C0, INPUT);
+	//activate pull up on C0
 	activatePullUp(C0);
-
+	//set D0 as output
 	pinSet(D0, OUTPUT);
+	//set D1 as output
 	pinSet(D1, OUTPUT);
 }
 
@@ -39,8 +42,9 @@ int main()
 	//init
 	init_code();
 	while(1){
-		//set D0 status to C0 input state
+		//set D0 status to C0 input state [not-state]
 		pinWrite(D0, pinRead(C0));
+		//set D1 status to C0 input state
 		pinWrite(D1, !pinRead(C0));
 	}
 
