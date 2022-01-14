@@ -3,6 +3,7 @@
  *
  * Created: 8/10/2014 22:42:36
  *  Author: Muchiri john
+ * built for atmega88, 168 and 328p
  */
 
 
