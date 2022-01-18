@@ -127,7 +127,13 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="adc_read.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="analog-basic.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="pin.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
