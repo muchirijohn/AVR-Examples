@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "analog-basic", "analog-basic\analog-basic.cproj", "{ABDBEFA3-54CB-42CD-B2A2-0303CFCD527E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDBEFA3-54CB-42CD-B2A2-0303CFCD527E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{ABDBEFA3-54CB-42CD-B2A2-0303CFCD527E}.Debug|AVR.Build.0 = Debug|AVR
+		{ABDBEFA3-54CB-42CD-B2A2-0303CFCD527E}.Release|AVR.ActiveCfg = Release|AVR
+		{ABDBEFA3-54CB-42CD-B2A2-0303CFCD527E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
