@@ -109,14 +109,8 @@
   <avrgcc.linker.libraries.Libraries>
     <ListValues>
       <Value>libm</Value>
-      <Value>libwarefab_kid_kit</Value>
     </ListValues>
   </avrgcc.linker.libraries.Libraries>
-  <avrgcc.linker.libraries.LibrarySearchPaths>
-    <ListValues>
-      <Value>../../../warefab_kid_kit/warefab_kid_kit/Debug</Value>
-    </ListValues>
-  </avrgcc.linker.libraries.LibrarySearchPaths>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
       <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.6.364\include\</Value>
